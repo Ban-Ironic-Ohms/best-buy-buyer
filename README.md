@@ -41,3 +41,6 @@ You will get a prompt in the terminal for your email, phone, etc. This is privat
 
 ## Expected Outcome
 The program will open a Chrome window where you can see everything happen. You may be able to run in headless mode by uncommenting the line 10. This is not a supproted use case
+
+## Mac OS
+Included is the MacOS Chrome Driver file. I dont have a mac, so I cant test it. If you want to add a PR to make it work, that would be appreciated. I think it will work as long as you select the correct file for your OS
