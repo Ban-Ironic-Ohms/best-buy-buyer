@@ -10,6 +10,7 @@ class User():
         self.state = state
         self.cardNum = cardNum
 
+link = input("What is the link? Include https://www. Paste it here: ")
 
 email = input("Email address for updates: ")
 phone = input("Phone number, no dashes, no spaces: ")

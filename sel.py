@@ -9,10 +9,10 @@ options.add_argument('--ignore-certificate-errors')
 options.add_argument('--ignore-ssl-errors')
 #options.add_argument('--headless')
 
-browser = webdriver.Chrome('PATH TO GIT CLONE/best-buy-buyer/chromedriver', chrome_options=options)
+browser = webdriver.Chrome('./chromedriver', chrome_options=options)
 
 #browser.get("https://www.bestbuy.com/site/nvidia-geforce-rtx-3070-8gb-gddr6-pci-express-4-0-graphics-card-dark-platinum-and-black/6429442.p?skuId=6429442")
-browser.get("https://www.bestbuy.com/site/nvidia-geforce-rtx-nvlink-bridge-for-3090-cards-space-gray/6441554.p?skuId=6441554") #link to what you want
+browser.get(cred.link) #link to what you want
 
 #checking if it is in stock
 def Stock():
